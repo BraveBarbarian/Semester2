@@ -1,29 +1,28 @@
-
-
 #include "myBib.h"
 
 
-void selectSort(int laenge, int* zahlen) {
+/*Ziel: Sortieren eines int-Arrays mit Selection-Sort-Algorithmus
+* Parameter: int* zahlen -> Zeiger auf das zu sortierende Array
+* Rückgabewert: -
+*/
 
-	int gross = 0, klein = 0, hilf = 0;
+void selectSort(int* zahlen) {
+	if (zahlen == NULL) return;
+
+	int hilf = 0;
 	int j = 0, i = 0, min = 0;
-	
-	while (j = laenge-1)
-	{
+	//Äußere Schleife für die Position im Array
+	for (j = 0; j < MAX_LENGTH - 1; ++j) {
 		min = j;
-		i = j + 1;
-		while (i < laenge)
-		{
+		for (i = j + 1; i < MAX_LENGTH; ++i) {
 			if (*(zahlen + i) < *(zahlen + min))
 				min = i;
-			i++;
+		} 
+		//Tausch der Elemente an Position j und min
+		if (min != j) {
+			hilf = *(zahlen + j);
+			*(zahlen + j) = *(zahlen + min);
+			*(zahlen + min) = hilf;
 		}
-		hilf = *(zahlen + j);
-		*(zahlen + j) = *(zahlen+min);
-		*(zahlen + j) = hilf;
-		j++;
 	}
-
-
-	return;
 }

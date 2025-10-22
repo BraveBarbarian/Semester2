@@ -1,3 +1,14 @@
+/*
+	Dateiname: VokaleZaehlen.c
+	Autor: Lars Rippert
+	Version: 1.0
+	Datum: 22.10.2024
+	Beschreibung: Programm zählt Vokale in einem String
+
+
+*/
+
+
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
@@ -32,7 +43,6 @@ int vokaleString(char* str) {
 				break;
 			}
 		}
-
 	}
 	return anzahlVokale;
 }

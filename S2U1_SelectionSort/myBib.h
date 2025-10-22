@@ -7,5 +7,8 @@
 #define MAX_LENGTH 10
 #define MAX_NUMBER 100
 
-
-void selectSort(int laenge, int* zahlen);
+/*Ziel: Sortieren eines int-Arrays mit Selection-Sort-Algorithmus
+* Parameter: int* zahlen -> Zeiger auf das zu sortierende Array
+* Rückgabewert: -
+*/
+void selectSort(int* zahlen);
