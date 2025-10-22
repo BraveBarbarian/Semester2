@@ -2,13 +2,6 @@
 	Dateiname: MinMax.c
 	Autor: Lars Rippert
 	Version: 1.0
-	Datum: 26.10.2015
-	Beschreibung: Dieses Programm liest eine Reihe von Ganzzahlen ein und bestimmt die
-				 kleinste und groesste Zahl in der Reihe.
-/*
-	Dateiname: MinMax.c
-	Autor: Lars Rippert
-	Version: 1.0
 	Datum: 22.10.2015
 	Beschreibung: Dieses Programm liest eine Reihe von Ganzzahlen ein und bestimmt die
 				 kleinste und groesste Zahl

@@ -1,11 +1,6 @@
 
 #include "myBib.h"
 
-
-
-
-
-
 /*
 Ziel: Funktion zur double Eingabe
 Rückgabewerte:	double
