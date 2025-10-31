@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="myEcho.c">
+    <ClCompile Include="ProgrammErstellen.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

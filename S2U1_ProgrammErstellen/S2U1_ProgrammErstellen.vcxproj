@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2e51522d-a3b1-4501-9fca-a9bfcc7293d8}</ProjectGuid>
-    <RootNamespace>S2U1myEcho</RootNamespace>
+    <ProjectGuid>{80e5b4c1-8aee-4a54-ba68-5d2b4fb4fc94}</ProjectGuid>
+    <RootNamespace>S2U1ProgrammErstellen</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="myEcho.c" />
+    <ClCompile Include="ProgrammErstellen.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

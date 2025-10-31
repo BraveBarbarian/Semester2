@@ -35,12 +35,9 @@ void proSum(int n, double* zahlen, double* pro, double* sum) {
 	{
 		*sum += zahlen[i];
 	}
-
 	for (int i = 0; i < n; i++)
 	{
 		*pro *= zahlen[i];
 	}
-
-
 	return;
 }

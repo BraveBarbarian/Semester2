@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
 	//fehlerbehandlung für reduzierung der argumente auf maximal 10
 	if (argc >= MAX_ARGS) {
 		printf("Fehler: Zu viele Argumente. Maximal 10 Argumente erlaubt.\n");
-		//ggf Programm mit Fehlercode returnen
+		return 1; //mit "Fehlercode" beendeen
 	} else {
 		//Ausgabe der Anzahl der Argumente und der Argumente selbst
 		printf("Anzahl der Argumente: %d\n", argc - 1);
