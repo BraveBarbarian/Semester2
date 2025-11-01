@@ -100,7 +100,7 @@ int main() {
 	//Füllen und Ausgeben des Arrays
 	for (int i = 0; i < MAX_LENGTH; i++)
 	{
-		arr[i] = rand() % MAX_NUMBER;
+		arr[i] = rand() % MAX_NUMBER+1;
 		printf("%6d", arr[i]);
 	}
 	printf("\n");
